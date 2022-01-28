@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ApolloProject</string>
+    <string name="experts_for">Experts for</string>
+    <string name="rehab">Rehab</string>
+    <string name="todo">TODO</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_your_mobile_number_to_continue_buying">Enter Your Mobile Number to Continue Buying</string>
+</resources>

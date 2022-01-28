@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_image"
+    android:alpha="1"
+    android:weightSum="1"
+    android:id="@+id/layout"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+
+    android:baselineAligned="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/firstlayot"
+        android:orientation="horizontal"
+        android:layout_weight="0.5" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/experts_for"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="165dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/rehab"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="200dp"
+            android:textColor="#E6BF00"/>
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="160dp"
+            android:src="@drawable/strok"
+            android:layout_marginTop="110dp"
+            android:layout_marginStart="180dp"
+            android:background="@color/white"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/apollo_app_logo"
+            android:layout_marginTop="160dp"
+            android:layout_marginStart="25dp"
+            android:contentDescription="@string/todo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:visibility="visible"
+
+        android:id="@+id/first_layout"
+        android:background="#009788">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25sp"
+            android:background="@drawable/setting"
+            android:layout_marginStart="318dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginTop="90dp"
+            android:padding="10dp"
+            android:textStyle="normal"
+            android:id="@+id/welcome"
+            android:layout_marginStart="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_your_mobile_number_to_continue_buying"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="130dp"
+            ></TextView>
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:background="@drawable/login"
+            android:padding="10dp"
+            android:inputType="number"
+            android:drawableEnd="@drawable/ic_baseline_backspace_24"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="180dp"
+            tools:ignore="LabelFor" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="continue"
+            android:id="@+id/contine"
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="250dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:text="Your number is safe with us,we want share your details with anyone"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:layout_marginTop="250dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:id="@+id/second_layout"
+android:visibility="gone"
+        android:background="#009788">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verification"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginTop="15dp"
+            android:textSize="23dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200sp"
+            android:id="@+id/timer"
+            android:textColor="@color/black"
+            android:layout_marginTop="200dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:text="We sent you OTP code on your number:+91 8142366836  it is valid for 60 secs"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginTop="50dp"/>
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/butoncolo"
+            android:layout_marginLeft="30dp"
+            />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/butoncolo"
+            android:layout_marginLeft="90dp"
+            />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/butoncolo"
+            android:layout_marginLeft="150dp"
+            />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/butoncolo"
+            android:layout_marginLeft="210dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OTP is valid for "
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Code not received? "
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="235dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VERIFY"
+            android:id="@+id/verify"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/button"
+            android:layout_marginTop="275dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:textColor="@color/white"
+            android:background="@drawable/cancelbuton"
+            android:layout_marginLeft="248dp"
+            android:layout_marginTop="275dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resend"
+            android:textColor="#E6BF00"
+            android:textSize="16dp"
+            android:layout_marginTop="238dp"
+            android:layout_marginLeft="170dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@drawable/backgroundsecnd">
+<ImageView
+    android:layout_width="60dp"
+    android:layout_height="50dp"
+    android:id="@+id/head_image"
+    android:src="@drawable/apollo_app_logo"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="2dp"
+        android:layout_height="60dp"
+        android:src="@drawable/strok"
+        android:layout_marginLeft="90dp"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:contentDescription="header"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/text_header"
+    android:text="Experts for"
+    android:textColor="@color/white"
+    android:textSize="18sp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="105dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_header1"
+        android:text="Rehabs"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:layout_marginLeft="105dp"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/search"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/ic_baseline_search_24"
+        android:layout_marginLeft="472dp"/>
+
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/cart"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/ic_baseline_local_grocery_store_24"
+        android:layout_marginLeft="525dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/logout"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/ic_baseline_power_settings_new_24"
+        android:layout_marginLeft="582dp"/>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="1"
+        android:textColor="@color/white"
+        android:background="@drawable/shapecart1"
+        android:textStyle="bold"
+android:gravity="center"
+        android:padding="1dp"
+        android:textSize="18dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="537dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Welcome"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:layout_marginTop="14dp"
+    android:layout_marginLeft="620dp"/>
+   <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Vaseem"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:layout_marginTop="27dp"
+    android:layout_marginLeft="620dp"/>
+
+
+</RelativeLayout>

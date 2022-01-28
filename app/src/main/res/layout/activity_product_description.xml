@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDescription">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/black"
+        android:text="B.P MONITOR HEM-7361 T(OMRON)"/>
+<TextView
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/paragraph"
+    android:text="Home blood pressure monitoring is essential to preventing heart disease and strokes. At OMRON, our goal is making sure the blood pressure monitors we manufacture are portable and easy to use. Most importantly, our blood pressure monitors are recommended by doctors for providing accurate results"
+    android:lines="6"
+    android:layout_marginTop="100dp"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    />
+</RelativeLayout>
